@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Dicas de Filmes bons que vi</h1>
+
+<div id="dicas">
+  <% @dicas.each do |dica| %>
+    <%= render dica %>
+    <p>
+      <%= link_to "Show this dica", dica %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New dica", new_dica_path %>

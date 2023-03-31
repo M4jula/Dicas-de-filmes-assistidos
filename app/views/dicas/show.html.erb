@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @dica %>
+
+<div>
+  <%= link_to "Edit this dica", edit_dica_path(@dica) %> |
+  <%= link_to "Back to dicas", dicas_path %>
+
+  <%= button_to "Destroy this dica", @dica, method: :delete %>
+</div>

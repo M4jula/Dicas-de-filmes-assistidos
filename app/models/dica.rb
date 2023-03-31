@@ -1,0 +1,2 @@
+class Dica < ApplicationRecord
+end
